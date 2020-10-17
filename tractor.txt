@@ -13,4 +13,6 @@
      ████▄▄,┌,╓▄████`           ███▌    ▄███
       ▀███████████▀              ▀████████▀
          ╙▀▀▀▀▀╙                   ╙▀▀▀▀╙
-     
+
+Adaptive Agrotech Self-Drive Tractor
+Human-aware module - beta

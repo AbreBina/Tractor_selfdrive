@@ -3,6 +3,9 @@ import face_recognition
 from PIL import Image, ImageFont, ImageDraw, ImageEnhance
 import os,numpy
 import datetime
+from intro import intro
+
+intro()
 
 logo = cv2.imread("logo.png")
 safe = cv2.imread("safe.png")
