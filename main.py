@@ -63,7 +63,7 @@ for x1,y1,x2,y2 in face_locations:
         if(found == False):
                 draw.text((y2,x2),"Unknown",font=font,fill=(255,0,0))
     except  IndexError:
-        print("***"*555)
+        pass
 
 
     draw.rectangle(((y1,x1),(y2,x2)), fill=None, outline=(0, 255, 0), width=7)
@@ -72,4 +72,4 @@ for x1,y1,x2,y2 in face_locations:
 
 # source_img.save("output.png","PNG")
 source_img.show()
-print(len(face_locations))
+print(len(face_locations), " people found")
